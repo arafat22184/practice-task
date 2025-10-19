@@ -24,6 +24,7 @@ const HomeLayout = () => {
         </Sidebar>
       </main>
       <SidebarTrigger />
+      {/* Counter Page */}
       <CounterPage />
     </SidebarProvider>
   );
