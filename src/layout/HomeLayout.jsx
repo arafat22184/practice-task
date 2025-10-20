@@ -9,6 +9,7 @@ import {
   SidebarHeader,
 } from "@/components/ui/sidebar";
 import CounterPage from "../pages/CounterPage";
+import Books from "../component/Books";
 
 const HomeLayout = () => {
   return (
@@ -42,7 +43,10 @@ const HomeLayout = () => {
       </main>
       <SidebarTrigger />
       {/* Counter Page */}
-      <CounterPage />
+      <div className="space-y-20">
+        <CounterPage />
+        <Books />
+      </div>
     </SidebarProvider>
   );
 };
